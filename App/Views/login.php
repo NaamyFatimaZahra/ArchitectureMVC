@@ -1,14 +1,17 @@
- <?php
- 
-include_once '../Views/Layout/header.php';
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.tailwindcss.com"></script>
 
-
-?> 
-
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>YOUDEMY</title>
+</head>
+<body class="w-[100%] text-[#595959]">
+   
      <section class=" w-[100%] h-[100vh] py-6 flex flex-col justify-center items-center sm:py-12">
-		
-
-	<div class=" w-[60%]  relative py-3 sm:max-w-xl sm:mx-auto">
+	 <div class=" w-[60%]  relative py-3 sm:max-w-xl sm:mx-auto">
 		<div
 			class="absolute inset-0 bg-gradient-to-r from-[#fbebcc] to-[#f97316] shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl">
 		</div>
@@ -39,5 +42,5 @@ include_once '../Views/Layout/header.php';
             document.getElementById('messagesLoginErrors').style.display = 'none';
         }, 4000);
 		</script>
-	
-<?php include_once '../Layout/footer.php';?>
+    </body>
+    </html>

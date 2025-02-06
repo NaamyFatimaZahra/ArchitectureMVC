@@ -11,6 +11,6 @@
 </head>
 <body class="w-[100%] text-[#595959]">
        <h1 class="text-3xl font-bold underline">
-   home page
+    page not found
   </h1>
     </header>
