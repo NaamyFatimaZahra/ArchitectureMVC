@@ -17,8 +17,9 @@ class Router{
             $instance= new $controller();
             $instance->$method();
           }else{
-            require __DIR__.'\..\Views\error.php'; 
-
+            
+            $errorDisplay=new Controller();
+             $errorDisplay->view('error'); 
           }
         }
 }
